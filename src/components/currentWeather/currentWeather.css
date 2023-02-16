@@ -1,4 +1,4 @@
-.weather{
+.weather {
 
     width: 300px;
     border-radius: 6px;
@@ -6,4 +6,41 @@
     color: #fff;
     background-color: #333;
     margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+
+}
+
+
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.city {
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+
+}
+
+.weatherDescription {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+
+}
+
+.weatherIcon {
+
+    width: 100px;
+
 }
