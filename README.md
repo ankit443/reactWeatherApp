@@ -7,7 +7,7 @@
 
 
 # Greetings! 
-## This app gives us a detailed overview of weather and forecasts of different places. It has an Auto Search feature which lets use take suggestions. It gives us a 7 day forecast, also provides details based on Pressure, Humidity, Wind Speed, etc.
+## This app gives us a detailed overview of weather and forecasts of different places. Users can type in their preferred places in Search Bar. It has an Auto Search feature which lets use take suggestions. It gives us a 7 day forecast, also provides details based on Pressure, Humidity, Wind Speed, etc.
 
 
 
