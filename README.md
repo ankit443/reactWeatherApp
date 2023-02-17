@@ -1,6 +1,56 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Greetings! 
+This app gives us a detailed overview of weather and forecasts of different places.
+It has an Auto Search feature which lets use take suggestions.
+It gives us a 7 day forecast, also provides details based on Pressure, Humidity, Wind Speed, etc.
+
+Steps on running this project:
+1)Please check with the pre-requisites before running this app:
+Go to your device's command prompt/terminal and type node -v
+That should provide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Further information regarding React:
+
+
 # Getting Started with Create React App
-
-
 
 ## Available Scripts
 
