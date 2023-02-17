@@ -1,6 +1,7 @@
 
 import './App.css';
 import Search from './components/search/search';
+import Forecast from './components/forecast/forecast';
 import CurrentWeather from './components/currentWeather/currentWeather';
 import { WEATHER_API_URL, WEATHER_API_KEY } from './api';
 import { useState } from 'react';
@@ -33,7 +34,7 @@ function App() {
 
   }
 
-  console.log(currentWeather);
+  console.log(currentWeather); //You gotta delete this line, it's on testing
   console.log(forecast);
 
 
@@ -42,6 +43,7 @@ function App() {
 
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
+      {forecast && <Forecast data={forecast} />}
 
     </div>
   );
