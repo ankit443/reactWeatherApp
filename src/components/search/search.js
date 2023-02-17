@@ -6,9 +6,10 @@ import { GEO_API_URL } from "../../api";
 const Search = ({ onSearchChange }) => {
 
     const [search, setSearch] = useState(null);
+    //Setting minPopulation 100k from 1 mil to cover more spaces
 
     const loadOptions = (inputValue) => {
-        return fetch(`${GEO_API_URL}/cities?minPopulation=1000000&namePrefix=${inputValue}`, geoApiOptions)
+        return fetch(`${GEO_API_URL}/cities?minPopulation=100000&namePrefix=${inputValue}`, geoApiOptions)
             .then(response => response.json())
             .then(response => {
                 return {
