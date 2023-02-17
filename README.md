@@ -6,24 +6,21 @@
 
 
 
+# Greetings! 
+## This app gives us a detailed overview of weather and forecasts of different places. It has an Auto Search feature which lets use take suggestions. It gives us a 7 day forecast, also provides details based on Pressure, Humidity, Wind Speed, etc.
 
 
 
+### Steps on running this project: 1)Please check with the pre-requisites before running this app: Go to your device's command prompt/terminal and type node -v and npm -v
+### That should provide you with the version of Node and NPM available in your device. If it's not installed, please install it from nodejs.org.
+### Create a folder where you'd like to test this project. Clone this project with the help of git using command "git clone HTTPs_link".
+### Copy the HTTPs link for this github repository from here and paste it in the command.
+### Go to that folder where you stored the project, open it with Visual Studio Code.
+### Versions in the JSON file and others might differ, so please run "npm start" and then run "npm install" in the terminal of VS Code.
+### When the project is setup to be tested, please run the "npm start" command again in VS Code terminal. Then the project will redirect you to localhost: 3000 of your pc.
 
 
 
-
-
-
-Greetings! 
-This app gives us a detailed overview of weather and forecasts of different places.
-It has an Auto Search feature which lets use take suggestions.
-It gives us a 7 day forecast, also provides details based on Pressure, Humidity, Wind Speed, etc.
-
-Steps on running this project:
-1)Please check with the pre-requisites before running this app:
-Go to your device's command prompt/terminal and type node -v
-That should provide
 
 
 
